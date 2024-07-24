@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: montserrat;
+    background-color: #DDF4FF;
+    color: rgb(130, 130, 130);
+}
+
+p {
+    margin: 0;
+    font-weight: 450;
+}
+
+#header-flex-container {
+    margin: 1.5rem auto 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: pink; */
+}
+
+#logo-and-navigation {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+
+#brandname {
+    display: inline-block;
+    margin-right: 2.2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+
+nav {
+    display: flex;
+    gap: 0.7rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 650;
+    color: rgb(87, 87, 87);
+}
+
+#login-group {
+    display: flex;
+    /* background-color: bisque; */
+    gap: 30px;
+    align-items: center;
+}
+
+#login {
+    color: green;
+}
+#login-group button {
+    padding: 18px 40px 18px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #96BB7C;
+    font-size: 1rem;
+    color: white;
+}
+
+#hero-section-first {
+    margin: 140px auto 0 auto;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.green-text {
+    color: green;
+    font-weight: 500
+}
+
+#hero-title {
+    font-size: 4rem;
+    /* width: 80%; */
+}
+
+#hero-para {
+    font-size: 1.6rem;
+}
+
+#button-group {
+    margin-top: 20px;
+}
+
+#hero-section-first-button {
+    padding: 20px;
+    background-color: rgb(0, 159, 0);
+    color: white;
+    font-family: montserrat;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#hero-section-second-button {
+    width: 180px;
+    padding: 20px;
+    border-color: green;
+    color: green;
+    background-color: transparent;
+    font-family: montserrat;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#hero-cover-image {
+    width: 655px;
+}
+
+.background-for-sections {
+    background-color: white;
+}
+
+#stats-section-second {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0px auto 240px auto;
+    padding-top: 100px;
+}
+
+.stat-numbers {
+    font-size: 4rem;
+    color: green;
+    font-weight: 600;
+    text-align: center;
+}
+
+.stat-text {
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+}
+
+.section-width {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+.third-section-green-text {
+    margin-bottom: 25px;
+}
+
+.section-heading {
+    font-size: 2.4rem;
+    margin-top: 0;
+    color: black;
+}
+
+#third-section-first-paragraph{
+    margin: 3px;
+}
+
+#card-row {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    position: relative;
+}
+
+#card-row div {
+    /* background-color: yellowgreen; */
+    padding: 20px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+.black-bold-text {
+    font-weight: bold;
+    color: black;
+    margin: 15px 0 35px 0;
+}
+
+.third-section-design-element {
+    height: 2.5px;
+    width: 80px;
+    background-color: rgb(198, 6, 6);
+    border: none;
+    position: absolute;
+    top: 135px;
+}
+
+#video-in-live-fourth-section {
+    display: flex;
+    align-items: center;
+    margin: 200px auto 0 auto;
+    position: relative;
+    /* background-color: wheat; */
+}
+
+#fourth-section-design-element {
+    position: absolute;
+    top: 120px;
+    height: 8px;
+    width: 100px;
+    background-color: red;
+    border: none;
+}
+
+#fourth-section-left-content, #fifth-section-left-content {
+    width: 50%;
+    /* background-color: pink  */
+}
+
+#fourth-section-image {
+    width: 50%;
+}
+
+#experts-teacher-fifth-section {
+    margin-top: 200px;
+}
+
+.card-container {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 40px;
+    gap: 10px;
+}
+
+#client-matters-sixth-section {
+    margin-top: 200px;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    height: 300px;
+}
+
+.review-card-para {
+    width: 65%;
+}
+
+.profile-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.picture-and-client-name {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* background-color: pink; */
+}
+
+#companies-logo {
+    width: 100%;
+}
+
+.last-section {
+    margin: auto;
+    text-align: center;
+    margin-top: -4px;
+    padding-top: 170px;
+    height: 400px;
+    background-color: white;
+}
+
+.last-section div {
+    text-align: center;
+}
+
+input {
+    margin-top: 90px;
+    height: 60px;
+    width: 60%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+footer {
+    display: flex;
+    /* gap: 20px; */
+    background-color: white;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+footer h4 {
+    color: black;
+    font-size: 1rem;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 550;
+    font-size: 0.9rem;
+}
