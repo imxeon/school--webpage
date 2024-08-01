@@ -4,8 +4,17 @@
 body {
     margin: 0;
     font-family: montserrat;
-    background-color: #DDF4FF;
+    /* background-color: #DDF4FF; */
     color: rgb(130, 130, 130);
+    /* max-width: 1920px; */
+    display: flex;
+    justify-content: center;
+}
+
+#blue-background {
+    background-color: #DDF4FF;
+    padding-top: 15px;
+    max-width: 1920px;
 }
 
 p {
@@ -14,8 +23,9 @@ p {
 }
 
 #header-flex-container {
-    margin: 1.5rem auto 0 auto;
+    margin: 0 auto 0 auto;
     width: 70%;
+    max-width: 1075px;
     display: flex;
     justify-content: space-between;
     /* background-color: pink; */
@@ -56,14 +66,28 @@ nav a {
 
 #login {
     color: green;
+    font-weight: 550;
 }
+
+#login:hover {
+    color: rgb(20, 99, 20);
+    font-weight: 600;
+    cursor: pointer;
+}
+
 #login-group button {
     padding: 18px 40px 18px 18px;
     border: none;
     border-radius: 5px;
-    background-color: #96BB7C;
+    background-color: #49a506;
     font-size: 1rem;
     color: white;
+}
+
+#login-group button:hover {
+    background-color: #357904;
+    color: white;
+    cursor: pointer;
 }
 
 #hero-section-first {
@@ -103,15 +127,26 @@ nav a {
     font-size: 1rem;
 }
 
+#hero-section-first-button:hover {
+    background-color: #357904;
+    cursor: pointer;
+}
+
 #hero-section-second-button {
     width: 180px;
-    padding: 20px;
+    padding: 18px;
     border-color: green;
     color: green;
     background-color: transparent;
     font-family: montserrat;
     border-radius: 5px;
     font-size: 1rem;
+}
+
+#hero-section-second-button:hover {
+    border: 2px solid rgb(0, 255, 8);
+    color: #245300;
+    cursor: pointer;
 }
 
 #hero-cover-image {
@@ -285,7 +320,8 @@ input {
     height: 60px;
     width: 60%;
     border: 1px solid lightgray;
-    border-radius: 4px;
+    padding-left: 15px;
+    border-radius: 5px;
 }
 
 footer {
